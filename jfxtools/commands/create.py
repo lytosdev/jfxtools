@@ -113,7 +113,7 @@ def generate_controller(controller_name):
     code.add(f"public class {controller_name} implements Initializable {{")
     code.add("")
     code.add("@FXML", 1)
-    code.add("private AnchorPane pnlVistas;", 1)
+    code.add("private AnchorPane pnl;", 1)
     code.add("")
     code.add(f"public {controller_name}() {{", 1)
     code.add("")
